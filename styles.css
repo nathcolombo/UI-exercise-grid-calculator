@@ -9,7 +9,7 @@ body {
 }
 
 .calculator {
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   display: grid;
   row-gap: 15px;
   column-gap: 15px;
@@ -17,10 +17,29 @@ body {
   grid-template-rows: 100px 100px 100px 100px 100px;
   margin: 30px;
   justify-content: center;
-  text-align: center;
 }
 
 .item {
   border: 2px solid black;
-  border-radius: 3px;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+}
+
+.item1 {
+  grid-column: 1 / span 3;
+  background-color: rgb(42, 153, 243);
+}
+
+.item2 {
+  background-color: lightgray;
+  color: black;
+}
+
+.item15 {
+  grid-column: 1 / span 3;
+}
+
+.item17 {
+  background-color: lime;
 }
