@@ -15,6 +15,7 @@ body {
   column-gap: 15px;
   grid-template-columns: 100px 100px 100px 100px;
   grid-template-rows: 100px 100px 100px 100px 100px;
+  grid-auto-flow: 100px;
   margin: 30px;
   justify-content: center;
 }
@@ -23,12 +24,15 @@ body {
   border: 2px solid black;
   border-radius: 8px;
   color: white;
+  background-color: gray;
   text-align: center;
+  font-family: "Space Mono", monospace;
+  font-size: 2rem;
 }
 
 .item1 {
   grid-column: 1 / span 3;
-  background-color: rgb(42, 153, 243);
+  background-color: rgb(9, 136, 240);
 }
 
 .item2 {
@@ -41,5 +45,5 @@ body {
 }
 
 .item17 {
-  background-color: lime;
+  background-color: rgb(3, 224, 3);
 }
