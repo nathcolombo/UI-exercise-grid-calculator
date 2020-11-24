@@ -7,6 +7,7 @@
 body {
   background-color: aliceblue;
   font-family: "Space Mono", monospace;
+  margin-top: 30px;
 }
 
 .calculator {
@@ -34,6 +35,7 @@ input {
   width: 100%;
   text-align: right;
   font-size: 3rem;
+  color: black;
 }
 
 .item {
@@ -54,6 +56,8 @@ input {
 .item2 {
   background-color: lightgray;
   color: black;
+  border: lightgray;
+  border-radius: 0;
 }
 
 .item15 {
