@@ -23,7 +23,7 @@ body {
   grid-template-columns: 100px 100px 100px 100px;
   grid-template-rows: 100px 100px 100px 100px 100px;
   grid-auto-flow: 100px;
-  margin: 30px;
+  padding: 25px;
 }
 
 input {
@@ -43,6 +43,7 @@ input {
   background-color: gray;
   text-align: center;
   font-size: 2rem;
+  padding: 20px;
 }
 
 .item1 {
